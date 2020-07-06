@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 30px 30px;
+}
+
+.h1 {
+    font-size: 25px;
+}
+
+
+
+
+div a {
+    color: black;
+}
+ 
+nav a {
+    padding: 40px;
+    color: black;
+    font-size: 13px;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+
+.btn {
+    background-color: transparent;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px;
+}
+
+.child-ban {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+
+ /* background */
+body {
+    background: no-repeat url(./img/bg.jpg);
+    background-size: 60%;
+    background-position: top right;
+}
+
+
+/* articles + logos */
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+div p { 
+    font-size: 20px;
+    width: 400px;
+}
